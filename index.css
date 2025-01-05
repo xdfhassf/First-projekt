@@ -1,0 +1,31 @@
+.color{
+    background-image: url(https://img.freepik.com/premium-photo/business-background-laptop-notebook-tablet-top-view-free-space-text_187166-38619.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nal{
+    color: white;
+}
+.kypit{
+    background-color: rgba(3, 198, 6, 0.844);
+    color: aliceblue;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: transform .5s;
+margin: 0 auto;  
+
+display: block;
+}
+.kypit:hover {
+    transform: scale(1.03);
+    }
+    
+    .kypit:active {
+        transform: scale(0.97);
+        }

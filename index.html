@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин ноутбуков</title>
+    <link rel="stylesheet" href="index.css"> <!-- Ссылка на внешний CSS файл -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .product {
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body class="color">
+    <header class="verx2">
+        <h1>Магазин Ноутбуков</h1>
+        <nav class="verx">
+            <a href="#">Главная</a>
+            <a href="#">Ноутбуки</a>
+            <a href="contact.html" target="_blank">Контакты</a>
+            <a href="#">О нас</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2 class="nal">В наличии</h2>
+
+        <div class="product">
+            <img src="https://avatars.mds.yandex.net/get-mpic/4904293/img_id2560163334686525901.jpeg/orig"
+                alt="Ноутбук 1">
+            <h3>Lenovo IdeaPad 3</h3>
+            <p>15.6" 1920 x 1080, IPS, 60 Гц, Intel Pentium Silver N5030, 8 ГБ DDR4, SSD 512 ГБ, видеокарта встроенная,
+                без ОС, цвет крышки серый, аккумулятор 35 Вт·ч</p>
+            <p>Цена: 52.500 руб.</p>
+            <button type="button" onclick="location.href='zakaz.html'" class="kypit">Купить</button>
+        </div>
+
+        <div class="product">
+            <img src="https://avatars.mds.yandex.net/i?id=00f40fcf6ab88164f63509535c382b9d_l-8497136-images-thumbs&n=33&w=1082&h=1080"
+                alt="Ноутбук 2">
+            <h3>Lenovo IdeaPad 5 </h3>
+            <p>Экран: 15.6 " 1920x1080 px, IPS 60 Гц, 300 кд/м2, Процессор: AMD Ryzen 5 5625U 6 -ядерный, Barcelo , до
+                4.3 ГГц, Видеокарта: Встроенная AMD Radeon Graphics , Память: ОЗУ 16 ГБ DDR4 , SSD 512 ГБ, Вес и
+                габариты: 1.85 кг, 356.67 мм х 233.13 мм х 16.9 мм </p>
+            <p>Цена: 67.000 руб.</p>
+            <button type="button" onclick="location.href='zakazi5.html'" class="kypit">Купить</button>
+        </div>
+
+        <div class="product">
+            <img src="https://motechnologic.ru/uploads/images/page_252334.jpeg" alt="Ноутбук 3">
+            <h3>Ноутбук Acer Aspire 3</h3>
+            <p>15.6" 1920 x 1080, IPS, 60 Гц, AMD Ryzen 3 5300U, 8 ГБ DDR4, SSD 256 ГБ, видеокарта встроенная, без ОС,
+                цвет крышки серый, аккумулятор 45 Вт·ч</p>
+            <p>Цена: 73.999 руб.</p>
+            <button type="button" onclick="location.href='zakazA3.html'" class="kypit">Купить</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Магазин Ноутбуков. Все права защищены.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(255, 255, 255);
+    ;
+}
+
+
+.papa {
+    position: relative;
+    left: 20px;
+}
+
+.dan {
+    font-weight: bold;
+    display: block;
+}
+
+.name1 {
+    position: absolute;
+    left: 6.5cm;
+    top: 2.95cm;
+}
+
+.name2 {
+    position: absolute;
+    left: 6.5cm;
+    top: 3.95cm;
+}
+
+.name3 {
+    position: absolute;
+    left: 6.5cm;
+    top: 4.95cm;
+}
+
+.name4 {
+    position: absolute;
+    left: 6.5cm;
+    top: 5.95cm;
+}
+
+.name5 {
+    position: absolute;
+    left: 6.5cm;
+    top: 6.95cm;
+}
+
+.name6 {
+    position: absolute;
+    left: 6.5cm;
+    top: 7.95cm;
+
+}
+
+.name7 {
+    position: absolute;
+    left: 6.5cm;
+    top: 8.95cm;
+
+}
+
+.name8 {
+    position: absolute;
+    left: 6.5cm;
+    top: 9.95cm;
+
+}
+
+.oform {
+
+    background: #b4b4b4;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.oform2 {
+    text-align: inherit;
+    margin-bottom: 6cm;
+
+}
+
+.mama {
+    display: inline-block;
+}
+
+.knopka {
+    
+    background-color: rgba(3, 198, 6, 0.844);
+color: aliceblue;
+padding: 10px 50px;
+border: none;
+outline: none;
+cursor: pointer;
+font-size: 18px;
+letter-spacing: 1px;
+font-weight: 300;
+border-radius: 10px;
+transition: transform .5s;
+
+
+}
+
+.knopka:hover {
+transform: scale(1.03);
+}
+
+.knopka:active {
+    transform: scale(0.97);
+    }
+
+    .knopka:focus {
+        transform: scale(1.03);
+        }
+           
+
+        
+        .king{
+            background-image: url(https://img.freepik.com/free-photo/top-view-laptop-with-mouse-headphones_23-2148291099.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+    
+        .oplata{
+            position: absolute;
+            left: 6.5cm;
+            top: 10.95cm;
+       
+    }
+
+    .vibor{
+        position: absolute;
+        left: 6.5cm;
+        top: 11.95cm;
+    }

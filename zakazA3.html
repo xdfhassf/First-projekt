@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="zakaz.css">
+</head>
+
+<body class="king">
+    <div class="papa">
+<h1>Оформление заказа</h1>
+        <h2>Контактная информация</h2>
+        <div class="dan">
+            <input type="text" name="name" class="name1" placeholder="Имя">
+            <input type="text" name="name" class="name2" placeholder="Фамилия">
+            <input type="number" name="name" class="name3" placeholder="Номер телефона">
+            <input type="email" name="name" class="name4" placeholder="Email">
+            <input type="text" name="name" class="name5" placeholder="Город">
+            <input type="text" name="name" class="name6" placeholder="Улица">
+            <input type="number" name="name" class="name7" placeholder="Дом">
+            <input type="number" name="name" class="name8" placeholder="Квартира">
+            <label for="oplata" class="oplata">Выберите способ оплаты:</label>
+            <select id="oplata" name="oplata" class="vibor">
+                <option value="karta">Банковская карта</option>
+                <option value="erip">Система ЕРИП</option>
+                <option value="nalik">Наличными при получении</option>
+            </select>
+
+        </div>
+        <div class="oform">
+            <h1 class="h1oform">Ваш заказ</h1>
+
+            <img src="data:image/jpeg;base64,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"
+                alt="Товар">
+            <h3>Товар: Acer Aspire 3</h3>
+            <h4>Стоимость доставки: 500 руб.</h4>
+            <h4>Стоимость товара: 73.999 руб. </h4>
+            <h4>Услуга онлайн покупки: 300 руб.</h4>
+            <h3>Итого к оплате: 74.799 руб.</h3>
+            <button class="knopka" type="button" onclick="location.href='spasibo.html'">Заказть</button>
+
+
+        </div>
+        <footer>
+            <p>&copy; 2023 Магазин Ноутбуков. Все права защищены.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
